@@ -137,7 +137,7 @@ void android_main(struct android_app* state)
             g_Time = current_time;
 
             // timeout for thread to fix excessive CPU consumption
-            usleep(1000);
+            usleep(15000);
         }
     }
 }
